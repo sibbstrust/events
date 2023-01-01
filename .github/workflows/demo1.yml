@@ -3,17 +3,7 @@ on:
   pull_request:
     types:
       - opened
-      - 
-    branches:
-      - main
-      - "dev-*" 
-      - "dev-**"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - "dev-*"
-      - "dev-**"
 jobs:
   deploy:
     runs-on: ubuntu-latest
