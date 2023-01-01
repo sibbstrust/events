@@ -10,7 +10,7 @@ on:
       - 'dev-*' # dev-new
       - 'feat/**' # feat/new feat/new/button
       # developer not covered
-    paths_ignore:
+    paths:
       - '.github/workflows/*'
 jobs:
   deploy:
